@@ -24,8 +24,8 @@ call_prices = [call(
 fig, ax = plt.subplots()
 
 ax.set_title(f"Call Vs. Spot at Strike: ${round(call_data['strike_price'],1)}")
-ax.set_xlabel("Spot Price")
-ax.set_ylabel("Call Price")
+ax.set_xlabel("Spot Price ($)")
+ax.set_ylabel("Call Price ($)")
 
 ax.plot(spot_prices, call_prices)
 
