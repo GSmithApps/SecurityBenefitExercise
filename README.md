@@ -8,18 +8,18 @@
 
 ## Model
  
- | Symbol | Description | Example Value |
-| ----------- | ----------- | ----------- |
-| $S$ | Spot Price | 396.86 |
-| $\sigma$ | Volatility (sd of log-normal returns) | 0.0857 |
-| $r_g$ | Growth Rate | 0.001046 |
-| $r_f$ | Discount Rate | 0.00077 |
-| q | Dividend | 0 |
-| $t$ | Time To Maturity | 1 |
-| $K$ | Strike Price | 392.93 |
-| $C$ | Price of a call option | |
-| $P$ | Price of a put option |  |
-| $Z$ | Price of Call Spread | |
+ | Symbol   | Description                           | Example Value |
+ | -------- | ------------------------------------- | ------------- |
+ | $S$      | Spot Price                            | 396.86        |
+ | $\sigma$ | Volatility (sd of log-normal returns) | 0.0857        |
+ | $r_g$    | Growth Rate                           | 0.001046      |
+ | $r_f$    | Discount Rate                         | 0.00077       |
+ | q        | Dividend                              | 0             |
+ | $t$      | Time To Maturity                      | 1             |
+ | $K$      | Strike Price                          | 392.93        |
+ | $C$      | Price of a call option                |               |
+ | $P$      | Price of a put option                 |               |
+ | $Z$      | Price of Call Spread                  |               |
 
 ### Formulas
 

@@ -1,23 +1,25 @@
 {
-    "call":{
+    "call": {
         "rate_growth": 0.00077,
         "rate_risk_free": 0.00077,
         "dividend_rate": 0.0,
         "volatility": 0.0857,
         "t": 1.0,
         "strike_price": 392.0,
-        "spot_price_low":  300.0,
-        "spot_price_high":  380.0
-    }, "put": {
+        "spot_price_low": 300.0,
+        "spot_price_high": 380.0
+    },
+    "put": {
         "rate_growth": 0.00077,
         "rate_risk_free": 0.00077,
         "dividend_rate": 0.0,
         "volatility": 0.0857,
         "t": 1.0,
         "strike_price": 392.0,
-        "spot_price_low":  300.0,
-        "spot_price_high":  380.0
-    }, "call spread": {
+        "spot_price_low": 300.0,
+        "spot_price_high": 380.0
+    },
+    "call spread": {
         "rate_growth": 0.00077,
         "rate_risk_free": 0.00077,
         "dividend_rate": 0.0,
@@ -25,7 +27,7 @@
         "t": 1.0,
         "strike_price_floor": 392.0,
         "strike_price_cap": 392.0,
-        "spot_price_low":  300.0,
-        "spot_price_high":  380.0
+        "spot_price_low": 300.0,
+        "spot_price_high": 380.0
     }
 }
