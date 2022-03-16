@@ -2,11 +2,11 @@ import math
 from scipy.stats import norm
 import random
 
-def d_plus(sig, tau, F, K):
-    return (math.log(F/K) + .5 * sig ** 2 * tau)/(sig * math.sqrt(tau))
+def d_plus(sig, t, F, K):
+    return (math.log(F/K) + .5 * sig ** 2 * t)/(sig * math.sqrt(t))
 
-def d_minus(d_plus, sig, tau):
-    return d_plus - sig * math.sqrt(tau)
+def d_minus(d_plus, sig, t):
+    return d_plus - sig * math.sqrt(t)
 
 def C(D, F, K, d_plus, d_minus):
     """
@@ -20,14 +20,14 @@ def P(D, F, K, d_plus, d_minus):
     """
     return D * (norm.cdf(-d_minus) * K - norm.cdf(-d_plus) * F)
 
-def D(r, tau):
+def D(r, t):
     """
     D value in the alternative formulation
     """
-    return math.exp(-r*tau)
+    return math.exp(-r*t)
 
-def F(r,tau,S):
+def F(r,t,S, q):
     """
     F value in the alternative formulation
     """
-    return S* math.exp(r * tau)
+    return S* math.exp((r - q) * t)
