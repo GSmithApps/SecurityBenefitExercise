@@ -1,4 +1,4 @@
-# Security Benefit Black Scholes Exerecise
+# Security Benefit Black Scholes Exercise
 
 ## Usage
 
