@@ -1,4 +1,3 @@
-import random
 from helpers import d_plus, d_minus, F, D, P
 from base_option import option
 

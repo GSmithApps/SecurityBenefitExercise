@@ -1,6 +1,5 @@
 import math
 from scipy.stats import norm
-import random
 
 
 def d_plus(sig, t, F, K):
